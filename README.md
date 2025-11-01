@@ -1,1 +1,3 @@
+Face Detection System for a Digital Camera
+
 I developed a Face Detection system for a consumer compact digital camera (ProCam S.p.A.) aimed at improving the automatic camera settings for single- and multi-person selfies. The system receives a photo and returns a list of bounding-box coordinates for all detected faces (or an empty list if no faces are present). The challenge was to build a robust, low-compute face detector from scratch using classical machine-learning techniques (Scikit-learn), without relying on pre-trained deep models, and to make it suitable for deployment on resource-constrained hardware.
